@@ -2,7 +2,7 @@
 /*		HEADER  		*/
 /* ------------------------------------ */
 
-html, body {
+html, body, p {
   margin: 0;
   padding:0;
 }
@@ -238,23 +238,21 @@ p {
 
 
 #container {
-  width: 940px;
+  width:940px;
+  overflow: hidden;
   margin: 100px auto;
- /* border: 1px solid rgba(0, 0, 0, 0.1);*/
-}
-
-.portfolio {
-    width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .text_2 {
-    width: 25%;
-    padding-right: 10px;
+    width: 30%;
+    float: left;
+    padding-right: 20px;
 }
 
 .row {
-    width: 55%;
-    padding-left: 10px;
+    width: 65%;
+    float: right;
 }
 
 .row li {
