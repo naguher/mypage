@@ -1,0 +1,184 @@
+/* ------------------------------------ */
+/*				HEADER  				*/
+/* ------------------------------------ */
+html, body {
+  margin: 0;
+  padding:0;
+}
+
+ul {
+  padding: 0;
+}
+
+#header {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.menu li {
+    display: inline;
+    padding-left: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+	  color:#222;
+}
+
+.menu li a:hover {
+	color:#9d8e6e;
+}
+
+.menu li a:activo {
+	color:#666666;
+}
+
+.name{
+    margin: 150px 0;
+}
+
+h1.name {
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    padding: auto 0;
+    border-bottom: 6px solid #44E8E8;
+}
+
+.study {
+  position: absolute;
+  left: 50%;
+  height: 500px;
+  width: 1200px;
+  z-index: -1;
+}
+
+
+/* ------------------------------------ */
+/*		            ABOUT		              */
+/* ------------------------------------ */
+
+#about {
+  width: 900px;
+  margin: 100px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h3.title {
+  font-size: 40px;
+  text-align:right;
+  padding: 20px 0;
+}
+
+.icons {
+  width: 45%;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.icons img {
+    width: 100%;
+}
+
+.text {
+  border-left: 6px solid black;
+  display: inline-block;
+  padding: 15px 0 15px 30px;
+  width: 45%;
+}
+
+/* ------------------------------------ */
+/*		          	WORK		          		*/
+/* ------------------------------------ */
+
+
+#columns {
+  width: 900px;
+  margin: 100px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h4.work {
+  font-size: 40px;
+  text-align:left;
+  padding: 20px 0;
+}
+
+.col_izqda {
+     float:left;
+     width:250px;
+	 margin:20px 0 20px 20%;
+	 height:300px;
+	 background:#063;
+}
+
+.col_centro {
+     float:left;
+     width:500px;
+     margin:20px 0 20px 3.5%;
+	 height:300px;
+	 background:#063;
+}
+
+.col_drcha {
+     width:250px;
+	 float:right;
+     margin:20px 20% 20px 0;
+	 height:300px;
+	 background:#063;
+}
+
+.fila_izqda {
+     float:left;
+     width:500px;
+	 margin:20px 0 20px 20%;
+	 height:300px;
+	 background:#063;
+}
+
+.fila_centro {
+     width:250px;
+	 float:left;
+     margin:20px 0 20px 3.5%;
+	 height:300px;
+	 background:#063;
+}
+
+.fila_drcha {
+     width:250px;
+	 float:right;
+     margin:20px 20% 20px 0;
+	 height:300px;
+	 background:#063;
+}
+
+
+/* ------------------------------------ */
+/*				FOOTER      			*/
+/* ------------------------------------ */
+
+
+#footer {
+    width:100%;
+    height:50px;
+    padding: 20px;
+    background-color: black;
+}
+
+.rss{
+	float:right;
+    padding: 0 100px 50px 0;
+}
+
+.rss li{
+    display: inline;
+}
